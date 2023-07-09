@@ -1,0 +1,363 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+    height: 100vh;
+    background-image: url(../img/doroga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: wrapper 4s linear infinite;
+}
+@keyframes wrapper {
+    0% {
+        transform: translateX(5px);
+     }
+ 
+     10%{
+        transform: translateX(10px);
+     }
+     20%{
+        transform: translateX(5px);
+     }
+     30%{
+        transform: translateX(10px);
+     }
+     40%{
+        transform: translateX(15px);
+     }
+     50%{
+        transform: translateX(25px);
+     }
+     60%{
+        transform: translateX(35px);
+     }
+     70%{
+        transform: translateX(45px);
+     }
+     80%{
+        transform: translateX(35px);
+     }
+     90%{
+        transform: translateX(25px);
+     }
+     100%{
+        transform: translateX(15px);;
+     }
+}
+.cloud{
+    position: absolute;
+    content: "";
+    width: 220px;
+    height: 120px;
+    background-image: url(../img/304241-03a9f4.svg);
+    background-size: cover;
+    top: 40px;
+    left: 20px;
+    animation: cloud 25s linear infinite;
+}
+@keyframes cloud {
+    0% {
+        left: 10%;
+    }
+
+    10%{
+        left: 15%;
+    }
+    20%{
+        left: 20%;
+    }
+    30%{
+        left: 30%;
+    }
+    40%{
+        left: 5%;
+    }
+    50%{
+        left: 10%;
+    }
+    60%{
+        left: 20%;
+    }
+    70%{
+        left: 25%;
+    }
+    80%{
+        left: 35%;
+    }
+    90%{
+        left: 40%;
+    }
+    100%{
+        left: 55%;
+    }
+}
+.cloud1{
+    position: absolute;
+    content: "";
+    width: 220px;
+    height: 120px;
+    background-image: url(../img/304241-03a9f4.svg);
+    background-size: cover;
+    top: 60px;
+    right: 25px;
+    animation: cloud1 25s linear infinite;
+}
+
+@keyframes cloud1 {
+    0% {
+        right: 10%;
+    }
+
+    10%{
+        right: 15%;
+    }
+    20%{
+        right: 20%;
+    }
+    30%{
+        right: 30%;
+    }
+    40%{
+        right: 5%;
+    }
+    50%{
+        right: 10%;
+    }
+    60%{
+        right: 20%;
+    }
+    70%{
+        right: 25%;
+    }
+    80%{
+        right: 35%;
+    }
+    90%{
+        right: 40%;
+    }
+    100%{
+        right: 55%;
+    }
+}
+.cloud2{
+    position: absolute;
+    content: "";
+    width: 220px;
+    height: 120px;
+    background-image: url(../img/304241-03a9f4.svg);
+    background-size: cover;
+    top: 200px;
+    right: 85px;
+    animation: cloud1 25s linear infinite;
+}
+.cloud3{
+    position: absolute;
+    content: "";
+    width: 220px;
+    height: 120px;
+    background-image: url(../img/304241-03a9f4.svg);
+    background-size: cover;
+    top: 60px;
+    right: 25px;
+    animation: cloud1 25s linear infinite;
+}
+.car {
+    position: absolute;
+    width: 480px;
+    height: 200px;
+    background-image: url(../img/avto.svg);
+    background-size: cover;
+    background-position: center center;
+    bottom: 15px;
+    left: 40%;
+    animation: cars 3s linear infinite;   
+}
+
+@keyframes cars {
+    0% {
+        transform: translateX(4px);
+     }
+ 
+     10%{
+        transform: translateY(4px);
+     }
+     20%{
+        transform: translateX(4px);
+     }
+     30%{
+        transform: translateY(4px);
+     }
+     40%{
+        transform: translateX(4px);
+     }
+     50%{
+        transform: translateY(4px);
+     }
+     60%{
+        transform: translateX(4px);
+     }
+     70%{
+        transform: translateY(4px);
+     }
+     80%{
+        transform: translateX(4px);
+     }
+     90%{
+        transform: translateY(4px);
+     }
+     100%{
+        transform: translateX(4px);;
+     }
+}
+
+.cars1 {
+    position: absolute;
+    content: "";
+    width: 44px;
+    height: 43px;
+    background-color: #000;
+    border-radius: 50%;
+    bottom: 55px;
+    left: 845px;
+    animation: car1 0.1s linear infinite;
+    
+}
+.cars2{
+    position: absolute;
+    content: "";
+    width: 44px;
+    height: 43px;
+    background-color: #000;
+    border-radius: 50%;
+    bottom: 50px;
+    right: 580px;
+    animation: car1 0.1s linear infinite;
+}
+
+@keyframes car1 {
+    0% {
+       transform: rotate(0deg);
+    }
+
+    10%{
+        transform: rotate(10deg);
+    }
+    20%{
+        transform: rotate(20deg);;
+    }
+    30%{
+        transform: rotate(30deg);
+    }
+    40%{
+        transform: rotate(40deg);
+    }
+    50%{
+        transform: rotate(50deg);
+    }
+    60%{
+        transform: rotate(60deg);
+    }
+    70%{
+        transform: rotate(70deg);
+    }
+    80%{
+        transform: rotate(80deg);
+    }
+    90%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(100deg);
+    }
+}
+
+
+
+
+/* ==================================================================== */
+
+.box {
+    padding: 150px;
+}
+
+.trafivg {
+    width: 150px;
+    position: relative;
+}
+
+.red {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    border-radius: 50%;
+    top: 180px;
+    left: 203px;
+    animation: redColor 4s linear ;
+    animation-delay: 3s;
+}
+
+.yellow {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    
+    border-radius: 50%;
+    top: 241px;
+    left: 203px;
+    animation:  yelloColor 4s ease ;
+    animation-delay: 6s;
+}
+
+.green {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    border-radius: 50%;
+    top: 300px;
+    left: 203px;
+    animation:  greenColor 4s ease ;
+    animation-delay: 9s;
+}
+
+@keyframes redColor {
+    0%{
+        background-color: #ffff;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: #fff;
+    }
+}
+
+@keyframes yelloColor {
+    0%{
+        background-color: #ffff;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: #fff;
+    }
+}
+
+@keyframes greenColor {
+    0%{
+        background-color: #ffff;
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: #fff;
+    }
+}
